@@ -1,0 +1,5 @@
+name = input("Enter your name: ")
+course = input("Enter the course you want to enroll in: ")
+AGE = int(input("Enter your age: "))
+price = float(input("Enter the price of the course: "))
+print(f"Hello {name}, you are {AGE} years old. You have chosen to enroll in the {course} course which costs {price}.")
